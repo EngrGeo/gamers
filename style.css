@@ -37,3 +37,11 @@ button {
 .operator-btn:hover {
     background-color: rgb(200, 233, 157);
 }
+
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    header {
+        font-size: 1.2rem;
+    }
+}
