@@ -1,7 +1,7 @@
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
-const box = 18; // Size of one box
-const canvasSize = 320 / box; // Number of boxes in one direction
+const box = 20; // Size of one box
+const canvasSize = 400 / box; // Number of boxes in one direction
 
 let snake;
 let food;
